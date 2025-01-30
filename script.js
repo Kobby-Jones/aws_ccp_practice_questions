@@ -1,10 +1,5 @@
 import data from './questions.json'
 
-// fetch('questions.json').then(response => response.json()).then(data => {
-//     solveQuestions(data);
-// }).catch(error => console.error("Error"));
-
-// The function to handle and process the quiz data
 function solveQuestions(quizData){
     let correct = new Set();
     let incorrect = new Set();
